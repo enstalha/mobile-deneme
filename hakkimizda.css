@@ -1,0 +1,123 @@
+/* Hakkımızda Sayfası */
+.container h2 {
+  font-size: 36px;
+  color: #37474f;
+  font-weight: 600;
+}
+
+.container p {
+  font-size: 16px;
+  color: #607d8b;
+  line-height: 1.6;
+}
+
+ul.list-group li {
+  font-size: 16px;
+  color: #37474f;
+}
+
+/* Footer */
+.footer {
+  background-color: #f8f1f1;
+  padding: 30px 0;
+  font-family: 'Poppins', sans-serif;
+  color: #37474f;
+}
+
+.footer h5 {
+  color: #37474f;
+  font-weight: bold;
+}
+
+.footer p {
+  color: #607d8b;
+  font-size: 14px;
+}
+
+.footer .social-icon {
+  color: #37474f;
+  text-decoration: none;
+  padding: 0 10px;
+  font-weight: 600;
+}
+
+.footer .social-icon:hover {
+  color: #ff758c;
+}
+
+.footer hr {
+  width: 60%;
+  margin: 20px auto;
+  border: 1px solid #b0bec5;
+}
+
+.footer p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* Navbar Stili */
+.navbar {
+  background-color: #e8eaf6; /* Hafif pastel mavi */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #37474f; /* Soft koyu gri */
+}
+
+.navbar-toggler {
+  border-color: #37474f; /* Hamburger menü butonu */
+}
+
+.menu-content {
+  text-align: center;
+  padding: 15px;
+  background-color: #e8eaf6;
+  border-top: 2px solid #b0bec5;
+}
+
+.menu-item {
+  display: block;
+  text-decoration: none;
+  color: #37474f;
+  font-size: 18px;
+  padding: 10px 0;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+.menu-item:hover {
+  color: #ff758c; /* Pastel pembe vurgulu */
+}
+
+.contact-btn {
+  display: block;
+  margin: 15px auto;
+  width: 80%;
+  background-color: #ffb6c1; /* Pastel pembe */
+  color: white;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.contact-btn:hover {
+  background-color: #ff6b81; /* Bir ton koyu pembe */
+}
+
+/* Mobil Görünüm */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  .menu-item {
+    font-size: 16px;
+  }
+
+  .contact-btn {
+    width: 90%;
+  }
+}

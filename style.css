@@ -1,0 +1,197 @@
+/* Genel Sayfa Stili */
+body {
+  background-color: #f8f1f1; /* Yumuşak krem */
+  font-family: 'Poppins', sans-serif;
+  color: #2d3436;
+}
+
+/* Hizmet Kartları */
+.service-card {
+  background: #fdf6f6; /* Hafif pastel bej */
+  border: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  padding: 15px;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.service-card h5 {
+  color: #37474f;
+  font-weight: bold;
+}
+
+.service-card p {
+  color: #607d8b; /* Hafif mavi-gri */
+}
+
+/* Kart Resim Konteyneri */
+.card-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.card-img-top {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+/* Hover Efekti */
+.service-card:hover {
+  background: #ffebee; /* Daha yumuşak pembe */
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Diğer stiller */
+.navbar {
+  background-color: #e8eaf6; /* Hafif pastel mavi */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #37474f; /* Soft koyu gri */
+}
+
+.menu-content {
+  text-align: center;
+  padding: 10px;
+  background-color: #e8eaf6;
+  border-top: 2px solid #b0bec5;
+}
+
+.menu-item {
+  display: block;
+  text-decoration: none;
+  color: #37474f;
+  font-size: 18px;
+  padding: 10px 0;
+  transition: 0.3s;
+}
+
+.menu-item:hover {
+  color: #ff758c; /* Pastel pembe vurgulu */
+}
+
+.contact-btn {
+  display: block;
+  margin: 15px auto;
+  width: 80%;
+  background-color: #ffb6c1; /* Pastel pembe */
+  color: white;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.contact-btn:hover {
+  background-color: #ff6b81; /* Bir ton koyu pembe */
+}
+
+.carousel-item img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Randevu Kartı */
+.appointment-card {
+  background: #fff4f4; /* Hafif pastel pembe arka plan */
+  border: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.appointment-card h5 {
+  color: #37474f; /* Koyu gri başlık */
+  font-weight: bold;
+}
+
+.appointment-card p {
+  color: #607d8b; /* Hafif mavi-gri yazı */
+  font-size: 16px;
+}
+
+/* Yatay Çizgi */
+hr {
+  width: 75%; /* Çizgi genişliği */
+  margin: 20px auto; /* Ortalamak için */
+  border: 1px solid #b0bec5; /* Yumuşak gri çizgi */
+}
+
+/* Randevu Al Butonu */
+.btn-pink {
+  background-color: #ffb6c1; /* Pastel pembe */
+  color: white;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn-pink:hover {
+  background-color: #ff6b81; /* Bir ton koyu pembe */
+}
+
+/* Hover Efekti */
+.appointment-card:hover {
+  background: #ffebee; /* Daha yumuşak pembe */
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* Footer Stili */
+.footer {
+  background-color: #f8f1f1; /* Yumuşak krem rengi */
+  padding: 30px 0;
+  font-family: 'Poppins', sans-serif;
+  color: #37474f; /* Soft koyu gri */
+}
+
+.footer h5 {
+  color: #37474f; /* Koyu gri başlık */
+  font-weight: bold;
+}
+
+.footer p {
+  color: #607d8b; /* Hafif mavi-gri metin */
+  font-size: 14px;
+}
+
+.footer .social-icon {
+  color: #37474f; /* Sosyal medya linkleri */
+  text-decoration: none;
+  padding: 0 10px;
+  font-weight: 600;
+}
+
+.footer .social-icon:hover {
+  color: #ff758c; /* Pastel pembe hover efekti */
+}
+
+.footer hr {
+  width: 60%; /* Çizgi genişliği */
+  margin: 20px auto;
+  border: 1px solid #b0bec5; /* Hafif gri çizgi */
+}
+
+.footer p {
+  font-size: 12px;
+  margin-top: 10px;
+}

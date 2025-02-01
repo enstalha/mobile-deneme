@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RavaDent</title>
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  
+  <!-- Google Fonts - Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <!-- Özel CSS -->
+  <link rel="stylesheet" href="styles/style.css">
+  
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-light px-3">
+    <div class="container-fluid d-flex justify-content-between">
+      <a class="navbar-brand">RavaDent</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Açılır Menü -->
+  <div class="collapse" id="menu">
+    <div class="menu-content">
+      <a href="index.html" class="menu-item">Ana Sayfa</a>
+      <a href="hakkimizda.html" class="menu-item">Hakkımızda</a>
+      <a href="#" class="menu-item">Randevu Al</a>
+      <a href="#" class="menu-item">Kadromuz</a>
+      <a href="#" class="btn contact-btn">Bizimle İletişime Geç</a>
+    </div>
+  </div>
+
+  <!-- Carousel -->
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/dis1.jpeg" class="d-block w-100" alt="Diş Sağlığı">
+        <div class="carousel-caption">
+          <h5>Sağlıklı Gülüşler</h5>
+          <p>Gülüşünüzü güzelleştirmek için buradayız.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/dis2.jpeg" class="d-block w-100" alt="Diş Bakımı">
+        <div class="carousel-caption">
+          <h5>Diş Bakımı</h5>
+          <p>Doğru ağız ve diş bakımı ile sağlıklı bir hayat.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Sol ve Sağ Butonlar -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+
+  <!-- Hizmet Kartları -->
+  <div class="container my-4">
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="card service-card">
+          <div class="card-body">
+            <div class="card-img-container">
+              <img src="images/smile-design.png" alt="Smile Design" class="card-img-top">
+            </div>
+            <h5 class="card-title">Smile Design</h5>
+            <p class="card-text">Sağlıklı, ışıl ışıl bir gülümsemeye sahip olun..!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card service-card">
+          <div class="card-body">
+            <div class="card-img-container">
+              <img src="images/implant.png" alt="İmplant Uygulamaları" class="card-img-top">
+            </div>
+            <h5 class="card-title">İmplant Uygulamaları</h5>
+            <p class="card-text">Doğala en yakın estetik...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card service-card">
+          <div class="card-body">
+            <div class="card-img-container">
+              <img src="images/teshis.png" alt="Teşhis" class="card-img-top">
+            </div>
+            <h5 class="card-title">Teşhis</h5>
+            <p class="card-text">Doğru yaklaşım</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card service-card">
+          <div class="card-body">
+            <div class="card-img-container">
+              <img src="images/tedavi.png" alt="Tedavi" class="card-img-top">
+            </div>
+            <h5 class="card-title">Tedavi</h5>
+            <p class="card-text">Bireysel yaklaşım</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card service-card">
+          <div class="card-body">
+            <div class="card-img-container">
+              <img src="images/beyazlatma.png" alt="Diş Beyazlatma" class="card-img-top">
+            </div>
+            <h5 class="card-title">Diş Beyazlatma</h5>
+            <p class="card-text">Daha beyaz ve daha ışıltılı bir görünüm...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card service-card">
+          <div class="card-body">
+            <div class="card-img-container">
+              <img src="images/randevu-takibi.png" alt="Randevu Takibi" class="card-img-top">
+            </div>
+            <h5 class="card-title">Randevu Takibi</h5>
+            <p class="card-text">Randevu takibinizi dilediğiniz gibi oluşturun.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Randevu Kartı -->
+<div class="container my-4">
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-4">
+      <div class="card appointment-card">
+        <div class="card-body text-center">
+          <h5 class="card-title">Bizi Arayın</h5>
+          <hr/></hr/>
+          <p class="card-text">Randevunuzu alın. Buradan randevu alabilir, uygun saati seçebilir ve size uygun doktoru seçebilirsiniz.</p>
+          <p class="card-text">Pazartesi - Cuma: 9.00 - 18:00</p>
+          <p class="card-text">Cumartesi: 9.30 - 18:00</p>
+          
+          <!-- Randevu Al Butonu -->
+          <a href="#" class="btn btn-pink">Randevu Al</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-4">
+        <h5>RavaDent</h5>
+        <p>Sağlıklı gülüşler için buradayız!</p>
+      </div>
+      <div class="col-md-4">
+        <h5>İletişim</h5>
+        <p>Telefon: +90 123 456 7890</p>
+        <p>E-posta: info@ravadent.com</p>
+        <p>Adres: Örnek Sokak No:123, Çanakkale, Türkiye</p>
+      </div>
+      <div class="col-md-4">
+        <h5>Sosyal Medya</h5>
+        <a href="#" class="social-icon">Facebook</a> | 
+        <a href="#" class="social-icon">Instagram</a> | 
+        <a href="#" class="social-icon">Twitter</a>
+      </div>
+    </div>
+    <hr>
+    <p>&copy; 2025 RavaDent. Tüm hakları saklıdır.</p>
+  </div>
+</footer>
+
+
+</body>
+</html>
